@@ -101,7 +101,7 @@ public class RestclientApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext ac = SpringApplication.run(RestclientApplication.class, args);
         System.out.println(ac.getBean(StaticInnerClass.class));
-        System.out.println(ac.getBean(OuterClass.InnerClass2.class));
+//        System.out.println(ac.getBean(OuterClass.InnerClass2.class));
 
         new StaticInnerClass();
     }
